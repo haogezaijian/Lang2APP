@@ -1,4 +1,4 @@
-# ai-gen-app - AI 前端代码生成平台
+# Lang2APP - AI 前端代码生成平台
 
 ## 项目简介
 Lang2APP 是一款基于 Spring Boot 的 AI 辅助前端代码生成工具，能够根据用户需求描述，自动生成符合规范的前端代码。支持单文件 HTML（内嵌 CSS/JS）和多文件（HTML、CSS、JavaScript 分离）两种输出格式，生成的代码遵循响应式设计原则，无需依赖外部框架。
