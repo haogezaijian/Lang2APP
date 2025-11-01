@@ -1,8 +1,8 @@
 -- 创建库
-create database if not exists ai_gen_app;
+create database if not exists lang_2_app;
 
 -- 切换库
-use ai_gen_app;
+use lang_2_app;
 
 -- 用户表
 -- 以下是建表语句

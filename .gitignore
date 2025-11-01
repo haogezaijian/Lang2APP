@@ -5,6 +5,7 @@ target/
 !**/src/test/**/target/
 tmp
 application-local.yml
+application-prod.yml
 
 ### STS ###
 .apt_generated

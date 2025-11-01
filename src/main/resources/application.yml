@@ -1,12 +1,12 @@
 spring:
   application:
-    name: ai-gen-app
+    name: lang-to-app
   session:
     store-type: redis
     timeout: 2592000
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ai_gen_app
+    url: jdbc:mysql://localhost:3306/lang_2_app
     username: root
     password: 123456
   profiles:
@@ -30,7 +30,7 @@ springdoc:
   group-configs:
     - group: 'default'
       paths-to-match: '/**'
-      packages-to-scan: com.haoge.aigenapp.controller
+      packages-to-scan: com.haoge.lang2app.controller
 # knife4j
 knife4j:
   enable: true

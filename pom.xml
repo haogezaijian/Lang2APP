@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.haoge</groupId>
-    <artifactId>ai-gen-app</artifactId>
+    <artifactId>lang-2-app-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ai-gen-app</name>
-    <description>ai-gen-app</description>
+    <name>Lang2APP</name>
+    <description>Lang2APP</description>
     <url/>
     <licenses>
         <license/>
@@ -184,13 +184,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                            <version>1.18.36</version>
-                        </exclude>
-                    </excludes>
                 </configuration>
             </plugin>
         </plugins>
